@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanmay - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.6/dist/css/ionicons.min.css">
+  <link rel="shortcut icon" href="./assets/images/20240403_224832.jpg" type="image/x-icon">
+  
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/django/django-original.svg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/flask/flask-original.svg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/20240403_224832.jpg" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Tanmay Sarkar</h1>
+
+          <p class="title">Backend developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:tanmaysarkar959@gmail.com" class="contact-link">tanmaysarkar959@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 8617315294" class="contact-link">+91 8617315294</a>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Malda, West Bengal, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/tanmay-sarkar-716bb4156/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/Tanmaysarkar2002" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://twitter.com/TanmayS57016229" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/tanmay_sarkar2002/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="social-title">Made With love Tanmay Sarkar</p>
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            A final year student from Rustamji Institute of Technology, Madhya Pradesh, a state in the center of India, majoring in Electronics and Communication Engineering.<br>
+            My passion lies in automaton and backend development, areas where I'm constantly honing my skills to excel.
+          </p>
+
+          <p>
+            Passionate about technology and its applications, I find joy in contributing to projects and leveraging my skills to solve real-world problems. Beyond academics and coding, I find solace and enjoyment in playing games, which serves as both a recreational activity and a source of inspiration.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Development</h4>
+
+                <p class="service-item-text">
+                  Unlocking Potential: Crafting Robust Solutions for Seamless Backend Development.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Automation</h4>
+
+                <p class="service-item-text">
+                  Efficient Automation Solutions Tailored for Optimal Performance.
+                </p>
+              </div>
+
+            </li>
+
+          
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <div class="header-content">
+              <div class="title-container">
+                  <h2 class="h2 article-title">Resume</h2>
+              </div>
+              <div class="download-container">
+                  <a href="https://drive.google.com/file/d/153JfRbNl8kOkNL3i6AD9IScSud2L-BHK/view" target="_blank"class="resume-download-link">Download My Resume</a>
+              </div>
+          </div>
+      </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Rustamji Institute of Technology</h4>
+
+              <span>2020 — Present</span>
+
+              <p class="timeline-text">
+                Bachelor of Technology - Electronics and Communication Engineering; GPA: 8.1.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kendriya Vidyalaya Malda</h4>
+
+              <span>2019 — 2020</span>
+
+              <p class="timeline-text">
+                PCM with Computer Science(Higher Secondary); CBSE: 72..
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Creative director</h4>
+
+              <span>2015 — Present</span>
+
+              <p class="timeline-text">
+                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
+                molestias
+                exceptur.
+              </p>
+
+            </li> -->
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Backend Developer</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                ◦ Engineered robust and efficient APIs from scratch, showcasing proficiency in backend development.<br>
+                ◦ Fostered effective communication and synergy within a dynamic team of 5+ members, driving project success.<br>
+                ◦ Enhanced project security and integrity by implementing robust authentication mechanisms.
+            </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Scraper</h4>
+
+              <span>2023 — Present</span>
+                <p class="timeline-text">
+                  ◦ Developed sophisticated scripts for scraping data from websites, PDFs, and JSON files using Selenium, Beautiful Soup, and Scrapy.<br>
+                  ◦ Expanded technical skill set by learning about AWS, ElasticSearch, and Airflow.<br>
+                  ◦ Streamlined data collection processes by automating scripts for various websites.
+                </p>
+
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Skills I've Mastered</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="logos">
+                <div class="logo-container">
+                    <ion-icon name="logo-python"></ion-icon>
+                </div>
+                <div class="logo-container">
+                    <i class="devicon-django-plain"></i>
+                </div>
+                <div class="logo-container-flask">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/flask/flask-original.svg" alt="Flask logo">
+                </div>
+                <div class="logo-container">
+                    <i class="devicon-postgresql-plain"></i>
+                </div>
+                <div class="logo-container">
+                    <i class="devicon-c-plain"></i>
+                </div>
+                <div class="logo-container">
+                    <i class="devicon-cplusplus-plain"></i>
+                </div>
+                <div class="logo-container">
+                    <i class="devicon-mysql-plain"></i>
+                </div>
+                <div class="logo-container">
+                    <i class="devicon-git-plain"></i>
+                </div>
+                <div class="logo-container">
+                    <i class="devicon-github-plain"></i>
+                </div>
+                <div class="logo-container">
+                    <i class="devicon-linux-plain"></i>
+                </div>
+                <div class="logo-container">
+                    <i class="devicon-javascript-plain"></i>
+                </div>
+                <div class="logo-container">
+                    <i class="devicon-html5-plain"></i>
+                </div>
+            </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Tanmaysarkar2002/PFM-Backend">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">PFM (Personal Finance Manager)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Tanmaysarkar2002/Universal-Scrapper">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/web-scraping-620x350.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Data Harvester</h3>
+
+                <p class="project-category">A Universal Web Scraper</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/Tanmaysarkar2002/Linked__scraping__Database">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sddefault.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Linkedin Jobs Sraper</h3>
+
+                <p class="project-category">A scraper That scrapes Jobs from various domain</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/Tanmaysarkar2002/Face-recognization-attendance-System">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/face_recognization_banner.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Face-recognization attendance System</h3>
+
+                <p class="project-category">A Platform For School And Colleges To take Student attendance</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/Tanmaysarkar2002/Twitter-retweet-bot">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Twitter-bot.jpeg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Twitter Retweet Bot</h3>
+
+                <p class="project-category">A Bot Which Helps to retweet Acc to your choices.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Tanmaysarkar2002/BANK-MANAGEMENT-SYSTEM">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bank-management.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">BANK-MANAGEMENT-SYSTEM</h3>
+
+                <p class="project-category">A simple Bank Managment system to show how does a bank works</p>
+
+              </a>
+            </li>
+
+            
+          </ul>
+
+        </section>
+
+      </article>
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
